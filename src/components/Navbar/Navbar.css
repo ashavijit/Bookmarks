@@ -1,0 +1,28 @@
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* backdrop-filter: blur(2px); */
+}
+
+.browzica-logo {
+    width: 40px;
+    position: absolute;
+    top: 9px;
+    left: 5%;
+    pointer-events: none;
+}
+
+
+.nav-icon {
+    font-size: 2.5rem !important;
+    color: #26202D;
+    position: absolute;
+    right: 5%;
+    top: 22px;
+}

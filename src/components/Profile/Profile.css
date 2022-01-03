@@ -1,0 +1,193 @@
+.profile {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #26202D;
+    color: #fff;
+    overflow: hidden;
+}
+
+.profile-backarrow {
+    font-size: 2rem !important;
+    color: #fff;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logout > h4 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.logout-icon {
+    font-size: 2rem !important;
+    margin-left: 1.05rem;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile > h1 {
+    margin-bottom: 2rem;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    width: 30%;
+    height: 50%;
+    border-radius: 15px;
+    box-shadow: 16px 16px 32px rgba(0,0,0,0.25),-16px -16px 32px rgba(0,0,0,0.25);  
+}
+
+.profile_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.profile_header > img {
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+.profile-name, .profile-email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.profile-name > h4, .profile-email > h4 {
+    font-size: 1.15rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile-name > h3, .profile-email > h3 {
+    margin-left: 1rem;
+    font-size: 1.35rem;
+    padding: 0.5rem;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.profile_options > button {
+    border-radius: 30px;
+    background-color: #62547031;
+    box-shadow: 3px 3px 6px #00000059,-3px -3px 6px #00000059;
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 1.64rem;
+    text-transform: inherit;
+}
+
+.profile_options > button:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media (min-width: 1380px) {
+    .logout {
+        border-radius: 30px;
+        padding: 10px 15px;
+        box-shadow: 2px 2px 4px #00000090, -2px -2px 4px #ffffff40;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .profileContainer {
+        padding: 1.25rem;
+        width: 40%;
+        height: 50%; 
+    }
+    .profile>h1 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    .profile_header>img {
+        border-radius: 50%;
+        margin-bottom: 1.2rem;
+        transform: translateY(-20px) scale(1.3);
+        border: 5px solid;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .profileContainer {
+        width: 60%;
+        height: 50%; 
+    }
+    .profile_header {
+        padding: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profileContainer {
+        padding: 0.25rem;
+        width: 90%;
+        height: 55%; 
+    }
+    .profile-name, .profile-email {
+        padding: 0rem;
+    }
+    .profile-name > h4, .profile-email > h4 {
+        font-size: 0.95rem;
+    }
+    
+    .profile-name > h3, .profile-email > h3 {
+        margin-left: 0.75rem;
+        font-size: 1.05rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile{
+        background-size: contain;
+    }
+
+    .profile-backarrow{
+        left: 1rem;
+        top: 2rem;
+    }
+
+    .logout > h4 {
+        display: none;
+    }
+
+    .logout-icon{
+        right: 1rem;
+        top: 2rem;
+    }
+ }
+
+@media screen and (max-width: 400px) {
+
+}
+
+

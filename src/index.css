@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+/* font-family: 'Charm', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+
+* {
+  margin: 0;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+
+
+html {
+  --scrollbarBG: #1a001a;
+  --thumbBG: #5a2f77;
+  --gradBG: #947fda;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body {
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(var(--thumbBG), var(--gradBG));
+  /* background-color: var(--thumbBG) ; */
+}

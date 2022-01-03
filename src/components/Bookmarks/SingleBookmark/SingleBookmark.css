@@ -1,0 +1,73 @@
+.singleBookmark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 110px;
+    position: relative;
+    
+}
+
+.singleBookmarkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+   
+}
+
+.singlebook-img {
+    width: 78px;
+    height: 78px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 3px 3px 6px #00000059;
+    transition: all 0.5s linear;
+}
+
+
+.singlebook-img > h1 {
+    color: #26202D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.singleBookmarkContainer > p {
+    margin-top: 10px;
+    color: #000;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+
+
+.singleBookmark  .delete_icon{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    left: 65%;
+    top: -7%;
+    transition: all 1s ease;
+    border-radius: 30%;
+    display: none;
+    cursor: pointer;
+}
+
+.delete_icon > img {
+    width: 100%;
+}
+
+
+.singleBookmark:hover  .delete_icon{
+    display: block;
+}
+
+.singlebook-img:hover {
+    background-color: #3b3c55;
+}
